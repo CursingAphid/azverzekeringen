@@ -50,7 +50,7 @@ const PrivacyVerklaring = () => {
               <a href="#" className="text-gray-800 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors">
                 LINKS
               </a>
-              <a href="mailto:info@azverzekeringen.nl" className="text-gray-800 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors">
+              <a href="/contact" className="text-gray-800 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors">
                 CONTACT
               </a>
               <a href="/privacy" className="bg-teal-700 text-white px-4 py-2 text-sm font-semibold uppercase tracking-wide">
@@ -78,7 +78,7 @@ const PrivacyVerklaring = () => {
               <a href="#" className="block text-gray-800 px-4 py-2 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors rounded">
                 LINKS
               </a>
-              <a href="mailto:info@azverzekeringen.nl" className="block text-gray-800 px-4 py-2 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors rounded">
+              <a href="/contact" className="block text-gray-800 px-4 py-2 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors rounded">
                 CONTACT
               </a>
               <a href="/privacy" className="block bg-teal-700 text-white px-4 py-2 text-sm font-semibold uppercase tracking-wide rounded">
@@ -90,7 +90,7 @@ const PrivacyVerklaring = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-blue-100 to-blue-200 py-8">
+      <section className="bg-gradient-to-b from-blue-100 to-blue-200 pt-20 pb-8">
         <div className="max-w-6xl mx-auto px-6 text-center">
           {/* Title */}
           <div className="mb-12 scale-in">

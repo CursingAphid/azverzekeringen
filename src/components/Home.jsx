@@ -51,7 +51,7 @@ const Home = () => {
               <a href="#" className="text-gray-800 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors">
                 LINKS
               </a>
-              <a href="mailto:info@azverzekeringen.nl" className="text-gray-800 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors">
+              <a href="/contact" className="text-gray-800 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors">
                 CONTACT
               </a>
               <a href="/privacy" className="text-gray-800 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors">
@@ -79,7 +79,7 @@ const Home = () => {
               <a href="#" className="block text-gray-800 px-4 py-2 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors rounded">
                 LINKS
               </a>
-              <a href="mailto:info@azverzekeringen.nl" className="block text-gray-800 px-4 py-2 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors rounded">
+              <a href="/contact" className="block text-gray-800 px-4 py-2 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors rounded">
                 CONTACT
               </a>
               <a href="/privacy" className="block text-gray-800 px-4 py-2 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors rounded">
@@ -178,6 +178,29 @@ const Home = () => {
               <p className="text-gray-600 leading-relaxed">
                 Tot slot: Één van de belangrijkste eigenschappen van ons kantoor is persoonlijkheid. Wij streven ernaar om al onze klanten persoonlijk te leren kennen. Wij komen graag bij de mensen thuis om te inventariseren, adviseren en te bemiddelen in diverse verzekeringsproducten. Doordat we een klein kantoor zijn, zonder personeel, staan we iedere klant persoonlijk te woord en houden wij de lijnen kort waardoor snelle en goede service wordt geboden.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Section */}
+      <section className="bg-white py-16">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center fade-in">
+            <h2 className="text-4xl font-bold text-gray-800 mb-12">
+              Bekijk onze video
+            </h2>
+            
+            <div className="relative w-full h-0 pb-[56.25%] rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                allow="fullscreen"
+                allowFullScreen
+                height="100%"
+                src="https://streamable.com/e/63f3ko?"
+                width="100%"
+                style={{border: 'none', width: '100%', height: '100%', position: 'absolute', left: '0px', top: '0px', overflow: 'hidden'}}
+                title="AZ Verzekeringen Video"
+              ></iframe>
             </div>
           </div>
         </div>
