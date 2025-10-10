@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove scrollbar */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* WebKit */
+}
+
+/* Import Vollkorn font */
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Custom styles for AZ Verzekeringen branding */
+@layer components {
+  .az-logo-text {
+    font-family: 'Times New Roman', 'Georgia', serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+  
+  .az-main-text {
+    font-family: 'Times New Roman', 'Georgia', serif;
+    font-weight: 700;
+  }
+  
+  .az-tagline {
+    font-family: 'Times New Roman', 'Georgia', serif;
+    font-weight: 700;
+  }
+}
+
+/* Apply Vollkorn to all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vollkorn', serif;
+}
+
+/* Animation classes */
+@layer components {
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .slide-in-left {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .slide-in-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .slide-in-right {
+    opacity: 0;
+    transform: translateX(30px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .slide-in-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .scale-in {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 0.5s ease-out;
+  }
+  
+  .scale-in.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon-bounce {
+    transition: transform 0.3s ease;
+  }
+  
+  .icon-bounce:hover {
+    transform: scale(1.1);
+  }
+}
+
+/* Diagonal image effect */
+.diagonal-image-right {
+  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+  position: relative;
+  height: 500px;
+}
+
+/* On mobile and tablet, remove the diagonal effect and add margins */
+@media (max-width: 1023px) {
+  .diagonal-image-right {
+    clip-path: none;
+    margin: 0 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    height: 300px;
+  }
+}
+
+/* On large screens, increase height */
+@media (min-width: 1024px) {
+  .diagonal-image-right {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .diagonal-image-right {
+    height: 600px;
+  }
+}
