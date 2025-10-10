@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import azLogo from '../assets/AZ verzekeringen logo.png'
 import { FaBars, FaTimes } from 'react-icons/fa'
+import Footer from './Footer'
 
 const PrivacyVerklaring = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -47,7 +48,7 @@ const PrivacyVerklaring = () => {
               <a href="/" className="text-gray-800 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors">
                 HOME
               </a>
-              <a href="#" className="text-gray-800 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors">
+              <a href="/links" className="text-gray-800 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors">
                 LINKS
               </a>
               <a href="/contact" className="text-gray-800 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors">
@@ -75,7 +76,7 @@ const PrivacyVerklaring = () => {
               <a href="/" className="block text-gray-800 px-4 py-2 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors rounded">
                 HOME
               </a>
-              <a href="#" className="block text-gray-800 px-4 py-2 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors rounded">
+              <a href="/links" className="block text-gray-800 px-4 py-2 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors rounded">
                 LINKS
               </a>
               <a href="/contact" className="block text-gray-800 px-4 py-2 text-sm font-semibold uppercase tracking-wide hover:text-teal-700 transition-colors rounded">
@@ -139,6 +140,8 @@ const PrivacyVerklaring = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   )
 }
