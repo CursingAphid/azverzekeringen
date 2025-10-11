@@ -104,7 +104,7 @@ const Home = () => {
           </div>
           
           {/* Tagline */}
-          <div className="text-3xl md:text-4xl az-tagline text-gray-800 fade-in">
+          <div className="az-tagline text-gray-800 fade-in whitespace-nowrap" style={{fontSize: 'clamp(1.5rem, 4vw, 2.5rem)'}}>
             Advies op maat van A tot Z
           </div>
         </div>

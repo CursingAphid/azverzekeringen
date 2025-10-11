@@ -133,7 +133,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-800 mb-2">Bezoekadres:</h3>
-                      <p className="text-gray-600 text-lg">Eurode-Park 1-29 (begane grond)</p>
+                      <p className="text-gray-600 text-lg">Eurode-Park 1-29 <br></br>(begane grond)</p>
                       <p className="text-gray-600 text-lg">52134 Herzogenrath, Netherlands</p>
                     </div>
                   </div>
