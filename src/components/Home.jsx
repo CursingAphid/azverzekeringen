@@ -194,10 +194,10 @@ const Home = () => {
             
             <div className="relative w-full h-0 pb-[56.25%] rounded-lg overflow-hidden shadow-lg">
               <iframe
-                allow="fullscreen"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
                 height="100%"
-                src="https://streamable.com/e/63f3ko?"
+                src="https://www.youtube-nocookie.com/embed/IlWyc2Mg8to"
                 width="100%"
                 style={{border: 'none', width: '100%', height: '100%', position: 'absolute', left: '0px', top: '0px', overflow: 'hidden'}}
                 title="AZ Verzekeringen Video"

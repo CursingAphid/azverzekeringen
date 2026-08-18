@@ -66,13 +66,6 @@ const Links = () => {
       category: "Informatie"
     },
     {
-      name: "Holleman Beckers Financieel Advies",
-      filename: "https://hollemanbeckers.nl/",
-      description: "Hypothecair krediet, verzekeringen en financieel plan",
-      category: "Externe Links",
-      isExternal: true
-    },
-    {
       name: "Waarborgfonds Motorverkeer",
       filename: "https://waarborgfonds.vereende.nl/",
       description: "Schade melden bij motorverkeer ongevallen",
