@@ -133,8 +133,9 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-800 mb-2">Bezoekadres:</h3>
-                      <p className="text-gray-600 text-lg">Eurode-Park 1-29 <br></br>(begane grond)</p>
-                      <p className="text-gray-600 text-lg">52134 Herzogenrath, Netherlands</p>
+                      <p className="text-gray-600 text-lg">Eurode Business Center</p>
+                      <p className="text-gray-600 text-lg">Eurode-Park 1–29</p>
+                      <p className="text-gray-600 text-lg">6461 KB&nbsp;&nbsp;KERKRADE</p>
                     </div>
                   </div>
 
@@ -173,7 +174,7 @@ const Contact = () => {
                 
                 <div className="relative w-full h-96 rounded-lg overflow-hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.123456789!2d6.123456789!3d50.876543210!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f18.1!3m3!1m2!1s0x47c0a123456789ab%3A0x1234567890abcdef!2sEurode-Park%201-29%2C%2052134%20Herzogenrath%2C%20Germany!5e0!3m2!1sen!2snl!4v1234567890123!5m2!1sen!2snl"
+                    src="https://www.google.com/maps?q=Eurode%20Business%20Center%2C%20Eurode-Park%201-29%2C%206461%20KB%20Kerkrade&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
